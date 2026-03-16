@@ -1,59 +1,82 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
-.logo{
-    height:50px;
+.logo {
+    height: 50px;
     width: auto;
 }
 
-.cart-icon{
+.cart-icon {
     font-size: 17px;
-    color:none;
-    margin-left:10px;
-    cursor:pointer;
-    color: white; 
+    color: none;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
 }
 
-.nav-pills{
+.nav-pills {
     background-color: rgb(94, 94, 94);
     width: 100%;
 }
 
-.nav-pills .nav-link{ 
+.nav-pills .nav-link {
     color: rgb(255, 255, 255);
     transition: 0.2s ease;
 }
 
-.nav-pills .nav-link:hover{ 
+.nav-pills .nav-link:hover {
     color: rgb(255, 255, 255);
     transform: scale(1.1);
-    background-color:#ffcf04;
+    background-color: #ffcf04;
     color: rgb(71, 71, 71);
     font-weight: bold;
 }
 
-.nav-pills .nav-link:active{ 
+.nav-pills .nav-link:active {
     color: rgb(255, 255, 255);
     color: antiquewhite;
 }
 
+.carousel-caption h5 {
+    font-size: 14px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.carousel-caption p {
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px black;
+}
 /* tablet */
-@media (min-width:768px){
-    .logo{
-        height:100px;
+@media (min-width:768px) {
+    .logo {
+        height: 100px;
         width: auto;
+    }
+
+    .carousel-item img {
+        height: 500px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 28px;
+    }
+
+    .carousel-caption p {
+        font-size: 16px;
     }
 }
 
 /* desktop */
-@media (min-width:1200px){
-    .logo{
-        height:150px;
+@media (min-width:1200px) {
+    .logo {
+        height: 150px;
         width: auto;
     }
 }
-body{
+
+body {
     background-color: rgb(180, 180, 180);
 }
