@@ -80,3 +80,14 @@
 body {
     background-color: rgb(180, 180, 180);
 }
+
+.py-5{
+    background-color:rgb(71, 71, 71) ;
+    color: rgb(212, 212, 212);
+    
+}
+
+.social-icon{
+    color: white;
+    font-size: 24px;
+}
