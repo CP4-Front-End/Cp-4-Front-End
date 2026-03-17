@@ -24,6 +24,8 @@
 .nav-pills .nav-link {
     color: rgb(255, 255, 255);
     transition: 0.2s ease;
+    padding:6px 8px;
+    font-size:18px;
 }
 
 .nav-pills .nav-link:hover {
@@ -94,8 +96,23 @@ body {
 
 .card {
   transition: transform 0.2s ease;
+  margin: 5px;
 }
-
+/* talvez tirar */
 .card:hover {
   transform: scale(1.05);
+}
+.card-title{
+    white-space: nowrap;
+}
+.btn-eco{
+    background-color: rgb(71, 71, 71);
+    transition: 0.2s ease;
+    color: #ffffff;
+
+}
+.btn-eco:hover{
+    background-color: rgb(39, 39, 39);
+    transform: scale(1.1);
+    color: #ffffff;
 }
