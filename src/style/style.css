@@ -119,11 +119,13 @@ body {
     transition: 0.2s ease;
     padding:6px 30px;
     font-size:18px;
+    
+}
+    .carousel-item img{
+    height: 300px;
+    object-fit: cover;
 }
 }
-
-
-
 .py-5{
     background-color:rgb(71, 71, 71) ;
     color: rgb(212, 212, 212);

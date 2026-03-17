@@ -37,6 +37,8 @@ main{
     border-radius: 10px;
     transition: 0.3s;
     margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .btn-eco:hover{
     background-color: #ac8d05;
@@ -55,7 +57,23 @@ main{
 }
 
 @media (min-width:768px){
-    main{
-        width: 300px;
+    .produto-container{
+        width: 800px;
+        margin: auto;
     }
+    .btn-eco,
+    .btn-cachoeirinha {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .produto-img {
+        max-width: 420px;
+        margin-bottom: 28px;
+    }
+}   
+
+@media (min-width:1200px){
+
 }
