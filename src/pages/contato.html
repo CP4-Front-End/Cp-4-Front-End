@@ -29,67 +29,52 @@
         <div class="row g-3">
             <div class="col-sm-6"> <label for="firstName" class="form-label">Seu Nome</label> <input type="text"
                     class="form-control" id="firstName" placeholder="" value="" required="">
-                <div class="invalid-feedback">
-                    Insira um nome válido
-                </div>
+                
             </div>
             <div class="col-sm-6"> <label for="lastName" class="form-label">Sobrenome</label> <input type="text"
                     class="form-control" id="lastName" placeholder="" value="" required="">
-                <div class="invalid-feedback">
-                    Insira um sobrenome válido
-                </div>
+                
             </div>
             <div class="col-12"> <label for="username" class="form-label">Nome de usuário</label>
                 <div class="input-group has-validation"> <span class="input-group-text">@</span> <input type="text"
                         class="form-control" id="username" placeholder="Usuário" required="">
-                    <div class="invalid-feedback">
-                        É necessário usuário
-                    </div>
+                    
                 </div>
             </div>
             <div class="col-12"> <label for="email" class="form-label">Email (Opcional)</label> <input type="email" class="form-control"
                     id="email" placeholder="voce@fiap.com.br">
-                <div class="invalid-feedback">
-                    Please enter a valid email address for shipping updates.
-                </div>
+                
             </div>
             <div class="col-12"> <label for="address" class="form-label">Endereço</label> <input type="text"
                     class="form-control" id="address" placeholder="Rua..." required="">
-                <div class="invalid-feedback">
-                    Por favor insira seu endereço
-                </div>
+                
             </div>
             <div class="col-md-5"> <label for="country" class="form-label">País</label> <select class="form-select"
                     id="country" required="">
-                    <option value="">Selecionar</option>
-                    <option>United States</option>
+                    <option value="">Selecionar</option><option>Argentina</option><option>Brasil</option><option>Canadá</option><option>EUA</option>
                 </select>
-                <div class="invalid-feedback">
-                    Selecione um país válido
-                </div>
+            
             </div>
             <div class="col-md-4"> <label for="state" class="form-label">Estado</label> <select class="form-select"
                     id="state" required="">
                     <option value="">Selecionar...</option>
-                    <option>São Paulo</option>
+                    <option>São Paulo</option><option>Mato Grosso</option><option>Rio de Janeiro</option><option>Paraná</option><option>Minas Gerais</option>
                 </select>
-                <div class="invalid-feedback">
-                    Selecione um estado válido
-                </div>
+            
             </div>
         </div>
         <hr class="my-4">
         <div class="form-check"> <input type="checkbox" class="form-check-input" id="save-info"> <label
                 class="form-check-label" for="save-info">Salvar minhas informações para a próxima vez.</label> </div>
         <hr class="my-4">
-        <h4 class="mb-3">Inserir algo</h4>
+        <h4 class="mb-3">Deseja receber atualizações sobre a loja?</h4>
         <div class="my-3">
             <div class="form-check"> <input id="credit" name="infocontato" type="radio" class="form-check-input"
-                    checked="" required=""> <label class="form-check-label" for="credit">Opção 1</label> </div>
+                    checked="" required=""> <label class="form-check-label" for="credit">Sim</label> </div>
             <div class="form-check"> <input id="debit" name="infocontato" type="radio" class="form-check-input"
-                    required=""> <label class="form-check-label" for="debit">Opção 2</label> </div>
+                    required=""> <label class="form-check-label" for="debit">Não</label> </div>
             <div class="form-check"> <input id="paypal" name="infocontato" type="radio" class="form-check-input"
-                    required=""> <label class="form-check-label" for="paypal">Opção 3</label> </div>
+                    required=""> <label class="form-check-label" for="paypal">Apenas sobre promoções</label> </div>
         </div>
         
         <hr class="my-4"> <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar</button>

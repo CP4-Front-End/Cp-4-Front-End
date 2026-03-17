@@ -10,9 +10,20 @@ html, body{
     width: auto;
 }
 
+.navBar{
+    background-color: rgb(180, 180, 180);
+    
+}
+
 img{
     max-width: 100%;
 }
+
+body {
+    background-color: rgb(180, 180, 180);
+    padding-top: 137px;
+}
+
 .cart-icon {
     font-size: 17px;
     color: none;
@@ -20,6 +31,14 @@ img{
     cursor: pointer;
     color: white;
 }
+
+.bi-cart-x {
+    font-size: 50px;
+    color: none;
+    margin-left: 10px;
+    color: black;
+}
+
 
 .nav-pills {
     background-color: rgb(94, 94, 94);
@@ -75,6 +94,15 @@ img{
     .carousel-caption p {
         font-size: 16px;
     }
+    body{
+    padding-top: 170px;
+}
+    .nav-pills .nav-link {
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease;
+    padding:6px 25px;
+    font-size:18px;
+}
 }
 
 /* desktop */
@@ -83,11 +111,18 @@ img{
         height: 150px;
         width: auto;
     }
+    body{
+    padding-top: 220px;
+}
+    .nav-pills .nav-link {
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease;
+    padding:6px 30px;
+    font-size:18px;
+}
 }
 
-body {
-    background-color: rgb(180, 180, 180);
-}
+
 
 .py-5{
     background-color:rgb(71, 71, 71) ;
