@@ -1,0 +1,61 @@
+body{
+    padding-top: 0;
+}
+main{
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+#nomeProduto{
+    font-size: 28px;
+}
+
+
+#imagemProduto{
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#precoProduto{
+    color: #ffcf04; 
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#descricaoProduto{
+    color: black;
+    line-height: 1.6;
+}
+
+.btn-eco{
+    background-color: #ffcf04;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin: 15px;
+}
+.btn-eco:hover{
+    background-color: #ac8d05;
+    transform: scale(1.02);
+}
+.btn-cachoerinha{
+    background-color: #494949;
+    color: #ffffff;
+    width: 100%;
+    transition: 0.2s ease;
+}
+.btn-cachoerinha:hover{
+    background-color: #242424;
+    color: #ffffff;
+    transform: scale(1.02);
+}
+
+@media (min-width:768px){
+    main{
+        width: 300px;
+    }
+}
