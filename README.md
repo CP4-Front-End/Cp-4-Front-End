@@ -141,25 +141,9 @@ A navbar permite navegação rápida entre as categorias da página principal e 
 
 Na página inicial, os links das categorias utilizam **âncoras internas**, permitindo que o usuário navegue diretamente até a seção desejada.
 
----
-
-## Como Executar Localmente
-
-1. Clone ou baixe este repositório:
-
-```bash
-git clone <url-do-repositorio>
 ```
 
-2. Abra o projeto no **Visual Studio Code**
-
-3. Execute o arquivo `index.html` no navegador
-
-4. Para uma melhor experiência durante o desenvolvimento, utilize a extensão **Live Server**
-
----
-
-O projeto também está publicado no **GitHub Pages**, permitindo visualizar a aplicação diretamente no navegador sem precisar baixar ou executar os arquivos localmente. Isso facilita a apresentação, os testes e o compartilhamento do site de forma prática. A versão publicada pode ser acompanhada pela página de deploy do projeto no GitHub Pages: [GitHub Pages Deployment](https://github.com/CP4-Front-End/Cp-4-Front-End/deployments/github-pages).---
+O projeto também está publicado no **GitHub Pages**, permitindo visualizar a aplicação diretamente no navegador sem precisar baixar ou executar os arquivos localmente. Isso facilita a apresentação, os testes e o compartilhamento do site de forma prática. A versão publicada pode ser acompanhada pela página de deploy do projeto no GitHub Pages: [GitHub Pages Deployment](https://cp4-front-end.github.io/Cp-4-Front-End/).---
 
 ---
 
