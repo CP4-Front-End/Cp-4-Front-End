@@ -141,9 +141,13 @@ A navbar permite navegação rápida entre as categorias da página principal e 
 
 Na página inicial, os links das categorias utilizam **âncoras internas**, permitindo que o usuário navegue diretamente até a seção desejada.
 
-```
+---
 
-O projeto também está publicado no **GitHub Pages**, permitindo visualizar a aplicação diretamente no navegador sem precisar baixar ou executar os arquivos localmente. Isso facilita a apresentação, os testes e o compartilhamento do site de forma prática. A versão publicada pode ser acompanhada pela página de deploy do projeto no GitHub Pages: [GitHub Pages Deployment](https://cp4-front-end.github.io/Cp-4-Front-End/).---
+## GitHub Pages
+
+O projeto também está publicado no **GitHub Pages**, permitindo visualizar a aplicação diretamente no navegador sem precisar baixar ou executar os arquivos localmente. Isso facilita a apresentação, os testes e o compartilhamento do site de forma prática.
+
+Acesse a versão publicada aqui: [D-Wall EcoLoop no GitHub Pages](https://cp4-front-end.github.io/Cp-4-Front-End/)
 
 ---
 
@@ -190,5 +194,5 @@ Apesar de ainda não possuir lógica completa de e-commerce, ele já representa 
 
 Este projeto é de uso acadêmico e educacional.
 
-```
+````
 
