@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imgs/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
@@ -55,32 +56,46 @@
     <main class="container my-5 produto-container">
 
         <h2 id="nomeProduto" class="text-center my-2 "></h2>
-        
-        <div class="d-flex flex-column align-items-center">
 
-        
+        <div class="row align-items-start">
+
+
+            <div class="col-md-6 text-center">
                 <img id="imagemProduto" class="img-fluid" alt="">
-            
+            </div>
+
+
+            <div class="col-md-6 text-center text-md-start">
+
+                <h2 id="nomeProduto" class="my-2"></h2>
+                <div class="col-md-6 text-center"> <label for="size" class="form-label">Selecione o tamanho</label>
+                    <select class="form-select" id="tamanho" required="">
+                        <option  value="">Selecionar</option>
+                        <option >P</option>
+                        <option >M</option>
+                        <option >G</option>
+                    </select>
+
+                </div>
+
                 <p id="precoProduto" class="fw-bold"></p>
 
-                <button class="btn btn-eco w-75">Comprar</button>
+                <button class="btn btn-eco w-100">Comprar</button>
 
-                <!-- Cachoerinha -->
-                <p class="w-100">
-                    <button class="btn btn-cachoerinha " type="button" data-bs-toggle="collapse"
+                <p>
+                    <button class="btn btn-cachoerinha" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseExample">
                         Descrição
                     </button>
                 </p>
 
                 <div class="collapse" id="collapseExample">
-                    <div  id="descricaoProduto" class="card card-body">
-                        
-                    </div>
+                    <div id="descricaoProduto" class="card card-body"></div>
                 </div>
-            
 
+            </div>
         </div>
+
 
     </main>
     <footer class="py-5">

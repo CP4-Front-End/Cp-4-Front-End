@@ -83,5 +83,27 @@ main{
 }   
 
 @media (min-width:1200px){
-
+    .produto-container{
+        width: 900px;
+        margin: auto;
+    }
+    .produto-img {
+        max-width: 500px;
+        margin-bottom: 28px;
+    }
+     .btn-cachoeirinha{
+        width: 360px;
+    }
+    .btn-eco,
+    .btn-cachoeirinha {
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }
+
+.card:hover {
+  transform: none;
+}
+

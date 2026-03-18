@@ -10,9 +10,9 @@ O site foi desenvolvido com foco em **estrutura semântica**, **responsividade**
 ---
 
 ## Integrantes
-- **Gabriel Ardito**
-- **João Sarracine**
-- **João Gonzales**
+- **Gabriel Ardito || RM568318**
+- **João Sarracine || RM567407**
+- **João Gonzales || RM568166**
 
 ---
 

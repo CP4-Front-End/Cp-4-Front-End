@@ -9,6 +9,12 @@ html, body{
     height: 50px;
     width: auto;
 }
+.bg-logo{
+    background-color:   rgb(180, 180, 180);
+    width: 100%;
+    display: block;
+    padding: 12px 0; /* substitui o py-3 */
+}
 
 .navBar{
     background-color: rgb(180, 180, 180);
@@ -21,7 +27,6 @@ img{
 
 body {
     background-color: rgb(180, 180, 180);
-    padding-top: 137px;
 }
 
 .cart-icon {
@@ -94,9 +99,6 @@ body {
     .carousel-caption p {
         font-size: 16px;
     }
-    body{
-    padding-top: 170px;
-}
     .nav-pills .nav-link {
     color: rgb(255, 255, 255);
     transition: 0.2s ease;
@@ -111,9 +113,7 @@ body {
         height: 150px;
         width: auto;
     }
-    body{
-    padding-top: 220px;
-}
+
     .nav-pills .nav-link {
     color: rgb(255, 255, 255);
     transition: 0.2s ease;
@@ -122,9 +122,10 @@ body {
     
 }
     .carousel-item img{
-    height: 300px;
+    /* height: 300px; */
     object-fit: cover;
 }
+
 }
 .py-5{
     background-color:rgb(71, 71, 71) ;
@@ -162,4 +163,52 @@ body {
     background-color: rgb(39, 39, 39);
     transform: scale(1.1);
     color: #ffffff;
+}
+.topo-fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+}
+#roupas,
+#beleza,
+#tech,
+#casa{
+    scroll-margin-top: 180px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.carousel{
+    margin-top: 120px;
+}
+.filtro-box{
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.filtro-titulo{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.filtro-item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.filtro-item input{
+    accent-color: #2e7d32; /* verde ecológico */
+    cursor: pointer;
+}
+
+.filtro-item:hover{
+    color: #2e7d32;
 }
