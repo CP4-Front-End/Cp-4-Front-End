@@ -212,3 +212,37 @@ html{
 .filtro-item:hover{
     color: #2e7d32;
 }
+.filtro-box{
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.filtro-titulo{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2e7d32;
+}
+
+.filtro-item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.filtro-item input{
+    accent-color: #2e7d32; /* verde */
+    cursor: pointer;
+}
+
+.filtro-item:hover{
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}

@@ -101,9 +101,14 @@ main{
         margin-right: auto;
         display: block;
     }
+    
 }
 
 .card:hover {
   transform: none;
 }
 
+.form-label{
+    font-size: 20px;
+    font-weight: 600;
+}
