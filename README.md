@@ -126,6 +126,14 @@ Essa combinação busca transmitir uma estética de marca contemporânea, ecoló
 
 ---
 
+## Barra lateral de filtros
+  
+  - O projeto também conta com uma barra lateral interativa de filtros, pensada para facilitar a navegação e a busca por produtos.
+  - Nela, o usuário pode refinar a visualização por **tipo de produto**, **faixa de preço** e características de **sustentabilidade**, como produto reciclado, biodegradável e vegano.
+  - Esse recurso contribui para uma experiência mais organizada, intuitiva e alinhada com a proposta ecológica da loja.
+
+---
+
 ## Navegação do Site
 
 A navbar permite navegação rápida entre as categorias da página principal e páginas auxiliares.
