@@ -58,7 +58,7 @@ const produtos = {
 
     9: {
         nome: "Lixeira D-Wall",
-        preco: "Em breve",
+        preco: "R$499,99",
         imagem: "../imgs/tech-1.png",
         descricao: "A lixeira inteligente da D-wall Ecoloop, é produto principal da marca, pensada e desenvolvida por um grupo de 4 alunos na Fiap, Felipe Menezes, Gabriel Ardito, João Sarracine e João Gonzales. A lixeira funciona por meio de sensores e câmeras identificando qual material foi jogado nela, e por meio de servo motores despeja o lixo no recipiente certo."
     },
